@@ -1,0 +1,35 @@
+GET  http://localhost:3000/user/
+
+###
+
+POST http://localhost:3000/user/0
+Content-Type: application/json
+
+{
+    "password": "123456"
+}
+
+###
+
+DELETE http://localhost:3000/user/3
+
+
+###
+PUT http://localhost:3000/user/1
+Content-Type: application/json
+
+{
+   
+    "password": "344245"
+
+}
+
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "email": "rangelvasquezangelarturo81@gmail.com",
+    "password": "344245"
+}
